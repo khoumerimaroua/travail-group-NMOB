@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;1,100;1,500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing:border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+    background-image: url('images/écran-de-cinéma-avec-les-rideaux-et-les-sièges-rouges-34205986.jpg');
+    background-size:cover;
+    background-position:100%;
+    background-repeat: no-repeat ;
+    height: 80vh;
+   min-height:100vh ;
+    /* background: linear-gradient(to bottom,#f1f4f9,#dff1ff); */
+
+}
+
+section .color{
+    
+   position: absolute;
+   filter: blur(150px);
+}
+section .color:nth-child(1){
+    top:-350px;
+    width:600px;
+    height: 600px;
+    background-color: #121111;
+}
+section .color:nth-child(2){
+    top:-150px;
+    left:100px;
+    width:500px;
+    height: 500px;
+    background-color: #ed1111;
+}
+section .color:nth-child(3){
+    top:50px;
+    right:100px;
+    width:500px;
+    height: 500px;
+    background-color: #0c0c0c;
+}
+.container{
+    margin-top:-40px;
+   position:relative;
+   width:400px;
+    min-height:400px;
+    background:rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    /* display:flex;
+    justify-content: center;
+    align-items:center;  */
+    /* border:1px solid rgba(255, 255, 255, 0.5) */
+}
+img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position:absolute;
+    top:-77px;
+    left:116px;
+}
+.form{
+    
+    /* position: relative; */
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+}
+.form h2{
+    /* Position:relative; */
+    color:#ffff;
+    font-size:24px;
+    font-weight: 600;
+    letter-spacing:1px;
+    margin-bottom:40px;
+}
+.form h2::before{
+    content:'';
+    position: absolute;
+    left: 50px;
+    top:72px;
+    width: 50px;
+    height: 4px;
+    background: #dff1ff;
+
+}
+ input{
+   
+    width: 100%;
+    background-color: rgba(255,255,255,0.2);
+    border:none;
+    padding: 10px 20px;
+    border-radius: 35px;
+    font-size: 16px;
+   letter-spacing: 1px;
+   color:#dff1ff;
+box-shadow: 0 5px 15px rgba(0,0 ,0,0.05);
+ }
+ .form input::placeholder{
+    color:white;
+ }
+ #btn{
+    border-radius: 10px;
+    background-color: white;
+    color: #1c1b1b;
+    max-width: 100px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 180px;
+    padding: 10px;
+}
+
+ 

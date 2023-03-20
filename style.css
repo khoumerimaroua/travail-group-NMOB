@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;1,100;1,500&display=swap');
+*{
+  margin: 0;
+  padding:0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing:border-box;
+}
+body{
+ height:80vh;
+}
+a{
+  color:#ffc107;
+text-decoration: none;
+}
+.btn a:hover{
+  color: rgb(6, 6, 6);
+}
+ .Home {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+  z-index: -1;
+}
+
+.Home .content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-bottom: 200px;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+
+color: transparent;
+  -webkit-text-stroke:0.5px #1f1919 ;
+  background-image: url('images/back.png');
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+}
+.Home .content h3 {
+font-size: 3rem;
+color:#fff;
+  /* color: transparent;
+  -webkit-text-stroke:1px #dadada ;
+  background-image: url('images/back.png');
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite; */
+}
+@keyframes back{
+  100%{
+    background-position: 2000PX 0;
+  }
+}
+
+.Home .content p {
+  font-family: 2.5rem;
+  color: white;
+  padding: 0.5rem 0;
+}
+
+
+.Home .video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /* border-radius: 100px / 70px; */
+  object-fit: cover;
+  z-index: -1;
+}
+
+.Home .controls {
+  padding: 1rem;
+  border-radius: 5rem;
+
+  position: absolute;
+  top: 30rem;
+  display: flex;
+}
+
+.Home .controls .video-btn {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+.Home .controls .video-btn.blue {
+  background: blue;
+}
+
+.btn{
+  font-size: 1.5rem;
+}
+
