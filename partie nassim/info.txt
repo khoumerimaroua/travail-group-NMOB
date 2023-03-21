@@ -1,0 +1,51 @@
+Je range ici mon footer : 
+<!-- <footer>
+    <div class="footer-bg"></div>
+    <div class="footer-box">
+      <h2>À propos de nous</h2>
+      <p>Nous sommes une entreprise spécialisée dans la recherche de films. Nous proposons des outils innovants pour vous aider à trouver le film parfait.</p>
+    </div>
+    <div class="footer-content">
+      <h2>Suivez-nous</h2>
+      <p>Suivez-nous sur les réseaux sociaux pour être informé des dernières nouveautés.</p>
+      <a href="https://www.instagram.com/?hl=fr" target="_blank"><i class="icon ion-social-instagram"></i></a>
+      <a href="https://twitter.com/?lang=fr" target="_blank"><i class="icon ion-social-twitter"></i></a>
+      <a href="https://fr-fr.facebook.com/" target="_blank"><i class="icon ion-social-facebook"></i></a>
+    </div>
+    <div class="footer-box">
+      <h2>Contactez-nous</h2>
+      <p>Adresse : 123 rue du Cinéma<br>
+      Téléphone : 01 23 45 67 89<br>
+      Email : contact@cinema.com</p>
+    </div>
+  </footer> -->
+
+  CSS : 
+footer {
+    position: relative;
+    background-color: #222;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 50px 0;
+}
+    
+.footer {
+    text-align: center;
+    text-shadow: 4px 4px 12px rgba(0,0,0,0.6);
+    background-color: #f2f2f2;
+    }
+.footer-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
